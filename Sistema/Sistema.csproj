@@ -91,6 +91,7 @@
     </Compile>
     <Compile Include="Models\BecasDual.cs" />
     <Compile Include="Models\Estudiante.cs" />
+    <Compile Include="Models\UnidadesEconomicas.cs" />
     <Compile Include="Models\Universidad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
