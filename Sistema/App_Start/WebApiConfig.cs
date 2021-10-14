@@ -16,7 +16,7 @@ namespace Sistema
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "/{controller}/{action}/{id}",
+                routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
