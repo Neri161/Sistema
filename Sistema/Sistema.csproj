@@ -90,7 +90,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\BecasDual.cs" />
+    <Compile Include="Models\CatalogoCompetencias.cs" />
+    <Compile Include="Models\CatalogoProyectos.cs" />
     <Compile Include="Models\Estudiante.cs" />
+    <Compile Include="Models\MentorEmpresarial.cs" />
     <Compile Include="Models\Mentores.cs" />
     <Compile Include="Models\ProgramaEducativo.cs" />
     <Compile Include="Models\Responsables.cs" />
