@@ -18,8 +18,21 @@ namespace Sistema.Models
         public String genero { get; set; }
         public String correo { get; set; }
         public String programaEducativo { get; set; }
-        
-
+        public String RFC_UE { get; set; }
+        public String claveUniversidad { get; set; }
+        public String claveBecaDual { get; set; }
+        public int fechaIngresoDual { get; set; }
+        public String telefono { get; set; }
+        public String situacionAcademica { get; set; }
+        public int fechaNacimiento { get; set; }
+        public String municipio { get; set; }
+        public int CP { get; set; }
+        public String colonia { get; set; }
+        public int fechaRegistro { get; set; }
+        public String estatusGeneral { get; set; }
+        public virtual UnidadEconomica UnidadEconomica { get; set; }
+        public virtual Universidad Universidad { get; set; }
+        public virtual BecaDual BecaDual { get; set; }
 
     }
 }

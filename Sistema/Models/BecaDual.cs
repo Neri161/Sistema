@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Sistema.Models
 {
-    public class BecasDual
+    public class BecaDual
     {
         [Key]
         public int claveBecaDual { get; set; }

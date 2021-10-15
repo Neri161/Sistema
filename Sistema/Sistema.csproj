@@ -89,17 +89,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\BecasDual.cs" />
-    <Compile Include="Models\CatalogoCompetencias.cs" />
-    <Compile Include="Models\CatalogoProyectos.cs" />
+    <Compile Include="Models\BecaDual.cs" />
+    <Compile Include="Models\CatalogoCompetencia.cs" />
+    <Compile Include="Models\CatalogoProyecto.cs" />
     <Compile Include="Models\Estudiante.cs" />
     <Compile Include="Models\MentorEmpresarial.cs" />
-    <Compile Include="Models\Mentores.cs" />
+    <Compile Include="Models\Mentor.cs" />
     <Compile Include="Models\ProgramaEducativo.cs" />
-    <Compile Include="Models\Responsables.cs" />
+    <Compile Include="Models\Responsable.cs" />
     <Compile Include="Models\Universidad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-	<Compile Include="Models\UnidadesEconomicas.cs" />
+    <Compile Include="Models\UnidadEconomica.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

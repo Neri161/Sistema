@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Sistema.Models
 {
-    public class CatalogoProyectos
+    public class CatalogoProyecto
     {
         public String NombreProyecto { get; set; }
         public String ClaveProgramaEducativo { get; set; }

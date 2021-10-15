@@ -6,10 +6,10 @@ using System.Web;
 
 namespace Sistema.Models
 {
-    public class UnidadesEconomicas
+    public class UnidadEconomica
     {
         [Key]
-        public String RFC { get; set; }
+        public String RFC_UE { get; set; }
         public String nombreComercial { get; set; }
         public String cargo { get; set; }
         public String razonSocial { get; set; }
