@@ -9,11 +9,11 @@ namespace Sistema.Models
     public class BecaDual
     {
         [Key]
-        public int claveBecaDual { get; set; }
-        public String fuente { get; set; }
-        public String duracion { get; set; }
-        public String periodicidad { get; set; }
-        public String tipoBeca { get; set; }
+        public int ClaveBecaDual { get; set; }
+        public String Fuente { get; set; }
+        public String Duracion { get; set; }
+        public String Periodicidad { get; set; }
+        public String TipoBeca { get; set; }
 
     }
 }

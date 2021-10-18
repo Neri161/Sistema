@@ -9,14 +9,14 @@ namespace Sistema.Models
     public class Universidad
     {
         [Key]
-        public String claveUniversidad { get; set; }
-        public String password { get; set; }
-        public String nombre { get; set; }
-        public String colonia { get; set; }
-        public String localidad { get; set; }
+        public String ClaveUniversidad { get; set; }
+        public String Password { get; set; }
+        public String Nombre { get; set; }
+        public String Colonia { get; set; }
+        public String Localidad { get; set; }
         public String Direccion { get; set; }
         public int CP { get; set; }
-        public String municipio { get; set; }
+        public String Municipio { get; set; }
 
     }
 }

@@ -10,16 +10,18 @@ namespace Sistema.Models
     {
         [Key]
         public String RFC_UE { get; set; }
-        public String nombreComercial { get; set; }
-        public String cargo { get; set; }
-        public String razonSocial { get; set; }
-        public String colonia { get; set; }
-        public String sector { get; set; }
-        public String localidad { get; set; }
-        public String programaEducativo { get; set; }
+        public String NombreComercial { get; set; }
+        public String Cargo { get; set; }
+        public String RazonSocial { get; set; }
+        public String Colonia { get; set; }
+        public String Sector { get; set; }
+        public String Localidad { get; set; }
+        public String ProgramaEducativo { get; set; }
         public int CP { get; set; }
-        public String telefono { get; set; }
-        public String municipio { get; set; }
-        public String representanteLegal { get; set; }
+        public String Telefono { get; set; }
+        public String Municipio { get; set; }
+        public String RepresentanteLegal { get; set; }
+        public int ClaveMentorEmpresarial { get; set; }
+        public virtual MentorEmpresarial MentorEmpresarial { get; set; }
     }
 }

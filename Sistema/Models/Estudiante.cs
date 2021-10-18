@@ -9,27 +9,27 @@ namespace Sistema.Models
     public class Estudiante
     {
         [Key]
-        public String matricula { get; set; }
-        public String nombre { get; set; }
-        public String paterno { get; set; }
-        public String materno { get; set; }
+        public String Matricula { get; set; }
+        public String Nombre { get; set; }
+        public String Paterno { get; set; }
+        public String Materno { get; set; }
         public String CURP { get; set; }
-        public String tipoAlumno { get; set; }
-        public String genero { get; set; }
-        public String correo { get; set; }
-        public String programaEducativo { get; set; }
+        public String TipoAlumno { get; set; }
+        public String Genero { get; set; }
+        public String Correo { get; set; }
+        public String ProgramaEducativo { get; set; }
         public String RFC_UE { get; set; }
-        public String claveUniversidad { get; set; }
-        public String claveBecaDual { get; set; }
-        public int fechaIngresoDual { get; set; }
-        public String telefono { get; set; }
-        public String situacionAcademica { get; set; }
-        public int fechaNacimiento { get; set; }
-        public String municipio { get; set; }
+        public String ClaveUniversidad { get; set; }
+        public String ClaveBecaDual { get; set; }
+        public int FechaIngresoDual { get; set; }
+        public String Telefono { get; set; }
+        public String SituacionAcademica { get; set; }
+        public int FechaNacimiento { get; set; }
+        public String Municipio { get; set; }
         public int CP { get; set; }
-        public String colonia { get; set; }
-        public int fechaRegistro { get; set; }
-        public String estatusGeneral { get; set; }
+        public String Colonia { get; set; }
+        public int FechaRegistro { get; set; }
+        public String EstatusGeneral { get; set; }
         public virtual UnidadEconomica UnidadEconomica { get; set; }
         public virtual Universidad Universidad { get; set; }
         public virtual BecaDual BecaDual { get; set; }
