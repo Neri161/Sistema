@@ -1,0 +1,30 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    transition:all 0.5s ease;
+}
+
+.form-control {
+    border: none;
+    border-bottom: solid 0.1px;
+}
+
+.container {
+    padding: 10px;
+}
+header {
+margin:20px;
+}
+
+.btn {
+    background-color: rgb(255,145,28);
+    border: rgb(255,145,28);
+    color:white;
+}
+    .btn:hover {
+        background-color: rgb(255,139,20);
+        border: rgb(255,159,57);
+        color:azure;
+    }
